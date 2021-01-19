@@ -1,0 +1,219 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+/* discover-section */
+.discover_section{
+  height:100vh;
+}
+.discover_section_heading{
+  height:10vh;
+}
+.discover_section_heading h5{
+text-align: center;
+font: normal normal 600  Proxima Nova Alt;
+letter-spacing: 0px;
+color: #000000;
+}
+
+.discover_section_map{
+  height:60vh;
+  width: 100%;
+  background-image: url('./resources/map.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+.discover_section_map img{
+  height:60vh;
+  width: 100%;
+}
+.discover_section_disclaimer{
+  height:10vh;
+}
+.discover_section_disclaimer h6{
+  font: normal normal Proxima Nova Alt;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.discover_section_download{
+  height:10vh;
+}
+.discover_section_download img{
+  height:4vh;
+}
+.discover_section_map_outer_div{
+  height:100%;
+  position:relative;
+ 
+}
+.discover_section_map_inner_div1,.discover_section_map_inner_div2,.discover_section_map_inner_div3
+,.discover_section_map_inner_div4,.discover_section_map_inner_div5,.discover_section_map_inner_div6{
+  height:30vh;
+  position: absolute;
+}
+.discover_section_map_inner_div1 .img,.discover_section_map_inner_div2 .img,.discover_section_map_inner_div3 .img,
+.discover_section_map_inner_div4 .img,.discover_section_map_inner_div5 .img,.discover_section_map_inner_div6 .img{
+padding: 50px;
+}
+.discover_section_map_inner_div1 .info p,.discover_section_map_inner_div2 .info p,.discover_section_map_inner_div3 .info p,
+.discover_section_map_inner_div4 .info p,.discover_section_map_inner_div5 .info p,.discover_section_map_inner_div6 .info p{
+margin: 0;
+padding:0;
+margin-left:20px;
+font-size:10px;
+}
+.info{
+  margin-left:20px;
+  margin-right:50px;
+  padding-bottom:40px;
+  background-color:white;
+  border-radius:10px;
+  box-shadow: 0px 3px 6px #00000029; ;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 64% 74%, 52% 94%, 39% 75%, 0% 75%);
+}
+.discover_section_map_inner_div1 .img img,.discover_section_map_inner_div2 .img img,.discover_section_map_inner_div3 .img img,
+.discover_section_map_inner_div4 .img img,.discover_section_map_inner_div5 .img img,.discover_section_map_inner_div6 .img img{
+  height: 5vh;
+  width: 30%;
+  margin-left: 20px;
+  margin-top: 0;
+}
+.discover_section_map_inner_div1{
+  top:150px;
+}
+.discover_section_map_inner_div2{
+  top:50px;
+}
+.discover_section_map_inner_div3{
+  top:250px;
+}
+.discover_section_map_inner_div4{
+  top:100px;
+}
+.discover_section_map_inner_div5{
+  top:200px;
+}
+.discover_section_map_inner_div6{
+  top:80px;
+}
+
+
+/* explore section */
+
+.explore_section{
+  height:50vh;
+}
+.exploreDs{
+  max-width:390px;
+  max-height:500px;
+}
+
+.exploreDs .imgD{
+  max-width:350px;
+  position: relative;
+
+}
+
+.exploreDs .imgD .floatD{
+  position: absolute;
+  bottom:20px;
+  right:20px;
+}
+
+.exploreDs .info1 h5,p{
+ margin: 0;
+ padding: 0;
+}
+
+.exploreDs .info1 h5{
+font: normal normal normal  Proxima Nova Alt;
+color: #000000;
+font-size: 18px;
+}
+
+.exploreDs .info2 h6,p{
+  margin: 0;
+  padding: 0;
+ }
+
+ .exploreDs .info2 h6{
+  font: normal normal normal  Proxima Nova Alt;
+  color: #000000;
+  font-size: 12px;
+ }
+.exploreDs .floatD{
+  background-color: lightgray;
+  border-radius: 10px;
+  font-size:10px;
+  padding:2px;
+}
+.exploreDs .btn{
+  font-size: 12px;
+  color:white;
+  background: #1D3861 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 6px #00000029;
+  border-radius: 23px;
+  opacity: 1;
+}
+
+.exploreDs .info12{
+ background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 0px 0px 10px 10px;
+margin-top: 0;
+padding: 0;
+margin-left:10px;
+margin-right: 30px;
+}
+
+.exploreDs .viewM{
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 0px 0px 10px 10px;
+  margin-left:30px;
+  margin-right:50px;
+}
+
+
+
+/* Explore Facilities */
+.explore_fac{
+  min-height:50vh;
+  margin-top:120px;
+  background: #FAF9F9 0% 0% no-repeat padding-box;
+  padding-bottom: 50px;
+
+}
+
+.explore_fac_heading{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.explore_fac_img img{
+  max-width:350px;
+  max-height:270px;
+
+}
+.explore_fac_hopname{
+background: #FFFFFF;
+box-shadow: 0px 3px 6px #00000029;
+border-radius:5px;
+margin-left:5px;
+margin-right:20px;
+}
+.explore_fac_hopname h6{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.explore_fac_heading{
+font: normal normal 600  Proxima Nova Alt;
+letter-spacing: 0px;
+color: #000000;
+text-transform: capitalize;
+}
+
+/* Media Queries going to be added */
